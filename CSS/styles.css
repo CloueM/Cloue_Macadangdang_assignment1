@@ -59,3 +59,25 @@ body{
     background-color: #ebbcba;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+
+
+
+/*Style for Textbox in note.html*/
+.text-div{
+    display:flex;
+    justify-content: center;
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+textarea {
+    line-height: 1.5;
+    border-radius: 10px;
+    width: 60%;
+    height: 391px;
+    border: 5px outset #908caa;
+    box-shadow: 7px 7px 1px #403d52;
+    font-size: 18px;;
+    resize:none; 
+    font-family: 'Kalam', cursive;
+}
