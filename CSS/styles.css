@@ -22,9 +22,40 @@ body{
 }
 .top-Menu a{
     color:#403d52;
+    font-family: 'Kalam', cursive;
 }
 .top-Menu a:hover{
     text-shadow: 0px 1px 16px #f2e9e1;
     color: #908caa;
     transition-duration: 0.4s;
+}
+
+
+
+/*Style for the Footer text*/
+#footer{
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    height: 40px;
+    width: 100%;  
+    z-index: -1; 
+}
+
+
+/*Style for Create Button in index.html*/
+.create-button-div{
+    width: 75%;
+    display:flex;
+    justify-content: center;    
+}
+.create-note-button{
+    color: #403d52;
+    border-radius: 12px;
+    padding:10px 15px;
+    transition-duration: 0.4s;
+}
+.create-note-button:hover{
+    background-color: #ebbcba;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
