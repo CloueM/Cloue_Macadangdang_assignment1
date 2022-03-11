@@ -1,4 +1,5 @@
-# my color palette
+# Notepad Web
+ Color Pallete:
  #403d52
  #908caa
  #ebbcba
