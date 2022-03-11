@@ -81,3 +81,37 @@ textarea {
     resize:none; 
     font-family: 'Kalam', cursive;
 }
+
+
+
+
+
+/*Style for Buttons(Add/Save/Delete) in note.html*/
+.side-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    gap:9px;
+}
+.add-note-button,.save-button, .delete-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #403d52;
+    background: #ebbcba;
+  
+    height: 35px;
+    width: 70px;
+	cursor: pointer;
+    border-radius:5px;
+    transition-duration:0.4s;
+}
+.add-note-button:hover,.save-button:hover, .delete-button:hover{
+    color: rgba(255, 255, 255, 1);
+    border-radius:60px;
+    font-size: 20px;
+    box-shadow: 7px 7px 1px #403d52;
+    padding: 25px 25px;
+}
