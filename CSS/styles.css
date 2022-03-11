@@ -1,0 +1,30 @@
+*{
+    font-family: 'Patrick Hand', cursive;
+    
+}
+
+body{
+    background: rgb(242,233,225);
+    background: linear-gradient(131deg, rgba(242,233,225,1) 0%, rgba(235,188,186,1) 100%);
+    background-attachment: fixed;
+}
+
+/*Style for 'ABOUT' and 'DOCS'*/
+.top-Menu{
+    top: 0px;  
+    position: sticky;  
+}
+.top-Menu ul{
+    gap:1rem;
+    display:flex;
+    justify-content: flex-end;
+    padding:5px;
+}
+.top-Menu a{
+    color:#403d52;
+}
+.top-Menu a:hover{
+    text-shadow: 0px 1px 16px #f2e9e1;
+    color: #908caa;
+    transition-duration: 0.4s;
+}
